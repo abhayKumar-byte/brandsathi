@@ -60,7 +60,7 @@ export default function HomePage() {
       <section className="py-20">
         <div className="brand-container grid gap-8 lg:grid-cols-2">
           <div>
-            <h2 className="text-4xl font-bold md:text-5xl">Why Leading Brands Choose BrandStathi</h2>
+            <h2 className="text-4xl font-bold md:text-5xl">Why Leading Brands Choose BrandSathi</h2>
             <ul className="mt-6 space-y-3 text-black/80">
               <li>Full-Stack Agency — Marketing + Design + Development under one roof</li>
               <li>Transparent Pricing — No hidden fees, clear monthly packages</li>

@@ -205,7 +205,7 @@ const Schedule = () => {
       <ScheduleItem title="Tracking & Attribution" date="Week 4" location="Analytics Team" />
       <ScheduleItem title="Conversion Optimization" date="Week 5" location="Growth Team" />
       <ScheduleItem title="Scale Campaigns" date="Week 6" location="Paid Media Team" />
-      <ScheduleItem title="Monthly Strategy Review" date="Week 7" location="BrandStathi HQ" />
+      <ScheduleItem title="Monthly Strategy Review" date="Week 7" location="BrandSathi HQ" />
     </section>
   );
 };

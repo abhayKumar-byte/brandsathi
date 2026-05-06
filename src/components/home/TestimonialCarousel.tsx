@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const testimonials = [
-  { name: "Aarav Jain", company: "D2C Apparel", quote: "Our ROAS doubled in 90 days. BrandStathi executes fast.", stars: "★★★★★" },
+  { name: "Aarav Jain", company: "D2C Apparel", quote: "Our ROAS doubled in 90 days. BrandSathi executes fast.", stars: "★★★★★" },
   { name: "Neha Kapoor", company: "SaaS Platform", quote: "The SEO system they built keeps compounding every month.", stars: "★★★★★" },
   { name: "Rohit Mehta", company: "Healthcare Clinic", quote: "From low visibility to top local rankings in weeks.", stars: "★★★★★" },
 ];

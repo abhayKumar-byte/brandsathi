@@ -24,7 +24,7 @@ export function HeroSection() {
           </motion.p>
           <h1 className="mt-4 text-5xl font-extrabold leading-tight md:text-7xl">We Build Brands. We Drive Revenue.</h1>
           <p className="mt-5 max-w-2xl text-black/75">
-            BrandStathi is a full-service digital marketing and development agency trusted by 200+ brands across India and globally.
+            BrandSathi is a full-service digital marketing and development agency trusted by 200+ brands across India and globally.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/contact" className="rounded-full bg-brand-primary px-6 py-3 font-semibold">Get a Free Proposal</Link>

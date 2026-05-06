@@ -12,25 +12,25 @@ const bodyFont = Inter({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "BrandStathi | Growth Marketing & Shopify Agency",
-    template: "%s | BrandStathi",
+    default: "BrandSathi | Growth Marketing & Shopify Agency",
+    template: "%s | BrandSathi",
   },
   description:
-    "BrandStathi is a full-service digital marketing, web design, app development, and Shopify growth agency.",
+    "BrandSathi is a full-service digital marketing, web design, app development, and Shopify growth agency.",
   icons: {
     icon: "/favicon.svg",
   },
   openGraph: {
     type: "website",
     url: siteUrl,
-    title: "BrandStathi | Where Brands Are Born. Where Growth Never Stops.",
+    title: "BrandSathi | Where Brands Are Born. Where Growth Never Stops.",
     description:
       "Performance-focused agency for SEO, PPC, Shopify, websites, and app development.",
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@brandstathi",
-    site: "@brandstathi",
+    creator: "@brandsathi",
+    site: "@brandsathi",
   },
 };
 

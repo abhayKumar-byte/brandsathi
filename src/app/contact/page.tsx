@@ -7,7 +7,7 @@ export default function ContactPage() {
       <p className="mt-3 text-black/70">Tell us your goals and we will send a practical plan within one business day.</p>
       <div className="mt-12 grid max-w-5xl gap-10 md:grid-cols-2">
         <div>
-          <h2 className="text-2xl font-semibold">Contact BrandStathi</h2>
+          <h2 className="text-2xl font-semibold">Contact BrandSathi</h2>
           <p className="mt-3 text-black/70">India-first. Global-ready. Speak to an expert about SEO, Shopify, ads, or product growth.</p>
           <div className="mt-5 space-y-2 text-sm text-black/75">
             <p>Email: hello@brandsathi.com</p>

@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-black/10 bg-white py-14">
       <div className="brand-container grid gap-10 md:grid-cols-5">
         <div className="md:col-span-2">
-          <h3 className="text-xl font-bold">BrandStathi</h3>
+          <h3 className="text-xl font-bold">BrandSathi</h3>
           <p className="mt-2 text-sm text-black/70">Where Brands Are Born. Where Growth Never Stops.</p>
           <p className="mt-4 text-sm text-black/60">Email: hello@brandsathi.com · Phone: +91 98765 43210</p>
           <a className="mt-2 inline-block text-sm text-brand-accent" href="https://wa.me/919876543210">WhatsApp Us</a>
@@ -36,7 +36,7 @@ export function Footer() {
         </div>
       </div>
       <div className="brand-container mt-10 border-t border-black/10 pt-5 text-xs text-black/60">
-        © 2025 BrandStathi | Privacy Policy | Terms | Sitemap
+        © 2025 BrandSathi | Privacy Policy | Terms | Sitemap
       </div>
     </footer>
   );

@@ -79,7 +79,7 @@ export function Navbar() {
       <div className="brand-container flex items-center justify-between gap-4">
         <NextLink href="/" className="inline-flex items-center gap-2 text-lg font-bold">
           <Flame className="h-5 w-5 text-brand-primary" />
-          BrandStathi
+          BrandSathi
         </NextLink>
         <nav className="hidden items-center gap-6 lg:flex">
           <div
@@ -112,7 +112,7 @@ export function Navbar() {
                         alt="Marketing results case study"
                         className="h-24 w-full object-cover"
                       />
-                      <p className="p-2 text-xs font-semibold">BrandStathi Case Studies</p>
+                      <p className="p-2 text-xs font-semibold">BrandSathi Case Studies</p>
                     </a>
                     <a href="/about" className="block overflow-hidden rounded-xl border border-black/10 hover:border-brand-primary">
                       <img

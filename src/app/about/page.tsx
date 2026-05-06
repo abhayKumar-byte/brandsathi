@@ -6,7 +6,7 @@ export default function AboutPage() {
 
   return (
     <main className="brand-container py-16">
-      <h1 className="text-5xl font-bold">About BrandStathi</h1>
+      <h1 className="text-5xl font-bold">About BrandSathi</h1>
       <p className="mt-4 max-w-3xl text-black/70">
         We are a growth-focused agency blending marketing, design, and engineering for Indian SMBs and global brands.
       </p>
