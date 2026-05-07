@@ -9,6 +9,7 @@ import {
   Smartphone,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { HeroSection } from "@/components/home/HeroSection";
 import { MarqueeStrip } from "@/components/home/MarqueeStrip";
 import { StatsCounter } from "@/components/home/StatsCounter";
@@ -41,7 +42,6 @@ export default function HomePage() {
       <HeroSection />
       <MarqueeStrip />
       <StatsCounter />
-      <TextParallaxContentExample />
 
       <section className="py-20">
         <div className="brand-container">
@@ -55,7 +55,6 @@ export default function HomePage() {
       </section>
      
 
-      <CaseStudySlider />
 
       <section className="py-20">
         <div className="brand-container grid gap-8 lg:grid-cols-2">
@@ -79,17 +78,58 @@ export default function HomePage() {
       </section>
 
       <ProcessTimeline />
+      <TextParallaxContentExample />
+ 
 
       <section className="py-20">
-        <div className="brand-container">
-          <h2 className="text-center text-4xl font-bold md:text-5xl">We Serve Every Industry</h2>
-          <div className="mt-8 flex flex-wrap justify-center gap-2">
-            {["eCommerce", "SaaS", "Healthcare", "Real Estate", "Education", "Restaurants", "Law Firms", "Startups", "Fashion", "Finance", "Travel", "Automotive"].map((item) => (
-              <span key={item} className="rounded-full border border-black/15 px-4 py-2 text-sm hover:border-brand-primary">{item}</span>
-            ))}
+        <div className="brand-container grid gap-8 rounded-3xl border border-black/10 bg-[linear-gradient(120deg,#ffffff,#f8fbff)] p-6 md:grid-cols-2 md:items-center md:p-10">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-primary">Industries We Serve</p>
+            <h2 className="mt-3 text-4xl font-bold md:text-5xl">Growth Strategies Built for Your Market</h2>
+            <p className="mt-4 text-black/75">
+              From high-velocity D2C brands to complex B2B companies, we build channel-specific strategies that fit
+              your audience, sales cycle, and revenue goals.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-2">
+              {[
+                "eCommerce",
+                "SaaS",
+                "Healthcare",
+                "Real Estate",
+                "Education",
+                "Restaurants",
+                "Law Firms",
+                "Startups",
+                "Fashion",
+                "Finance",
+                "Travel",
+                "Automotive",
+              ].map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full border border-black/15 bg-white px-4 py-2 text-sm text-black/80 transition hover:border-brand-primary hover:text-black"
+                >
+                  {item}
+                </span>
+              ))}
+            </div>
+            <Link href="/contact" className="mt-7 inline-flex rounded-full bg-brand-primary px-6 py-3 font-semibold text-black">
+              Talk to an Industry Expert
+            </Link>
+          </div>
+          <div className="rounded-2xl border border-black/10 bg-white/90 p-4">
+            <Image
+              src="/api.svg"
+              alt="Industries supported by BrandSathi"
+              width={640}
+              height={460}
+              className="h-auto w-full rounded-xl object-contain"
+            />
           </div>
         </div>
       </section>
+      <CaseStudySlider />
+
 
       <TestimonialCarousel />
 
